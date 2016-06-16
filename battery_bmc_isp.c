@@ -46,6 +46,7 @@ EXTERN void  disk_poweroff_soon(UINT32 map);
 EXTERN UINT32 odsp_resvered_disks_map;
 
 PUBLIC BOOL battery_upgrade_is_approved = FALSE;
+PUBLIC BOOL ac_down_event_has_occurred = FALSE;
 PUBLIC UINT16 thread_id_bmc_isp = 0;
 PUBLIC UINT8 local_bat_upgrade_status = 0;
 PUBLIC UINT8 opper_bat_upgrade_status = 0;
